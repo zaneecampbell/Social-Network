@@ -61,6 +61,7 @@ const Login = ({ login, isAuthenticated }) => {
   );
 };
 
+// proptypes is just a way to verify getting the right format of data (ex: string, function, bool etc..)
 Login.propTypes = {
   login: PropTypes.func.isRequired,
   isAuthenticated: PropTypes.bool
